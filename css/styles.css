@@ -39,6 +39,6 @@ body{
     background-color: rgb(36, 36, 36);
 }
 
-fa:hover{
+.fa:hover{
     opacity: .7;
 }
