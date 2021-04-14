@@ -42,3 +42,7 @@ body{
 .fa:hover{
     opacity: .7;
 }
+
+.reservationBgColor{
+    background-color:rgb(224, 108, 66);
+}
