@@ -47,3 +47,7 @@ body{
     background-color:rgb(224, 108, 66);
 }
 
+.reservation, .reservation label{
+    font-size: larger;
+}
+
