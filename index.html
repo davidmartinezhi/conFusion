@@ -100,15 +100,15 @@
         <div class="row row-content align-items-center">
             <div class="col-12 col-sm-8 offset-sm-2 ">
                 <div class="card">
-                    <h1 class="card-header text-white reservationBgColor">Reserve a Table</h1>
+                    <h2 class="card-header text-white reservationBgColor">Reserve a Table</h2>
                     <div class="card-body">
                         <form class="reservation" action="">
-                            
-                            <div class="form-group row justify-content-center">
+                        <!-- Radio -->
+                            <div class="form-group row">
                                 <span class="col-12 col-sm-2 col-form-label">Number of Guests</span> 
-                                <div class=" col-12 col-sm-10">
+                                <div class=" col-12 col-sm-10 pl-0">
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input ml-2" name="numberOfGuests" type="radio" id="one" value="one">
+                                        <input class="form-check-input" name="numberOfGuests" type="radio" id="one" value="one">
                                         <label class="form-check-label" for="one">1</label>
                                     </div>
                                     <div class="form-check form-check-inline">
@@ -134,13 +134,23 @@
                                 </div>    
                             </div>
 
+                            <!-- Date and Time -->
                             <div class="form-group row">
                                 <label for="dateAndTime" class="col-12 col-sm-2 col-form-label">Date and Time</label>
-                                <div class="col-12 col-sm-4">
+                                <div class="col-12 col-sm-4 ml-0 pl-0">
                                     <input type="date" class="form-control" id="date" name="date">
                                 </div>
-                                <div class="col-12 col-sm-5">
+                                <div class="col-12 col-sm-4 pl-0">
                                     <input type="time" class="form-control" id="time" name="time">
+                                </div>
+                            </div>
+
+                            <!-- Submit button -->
+                            <div class="form-group row">
+                                <div class="offset-sm-2">
+                                    <button type="submit" class="btn btn-primary">
+                                        Reserve
+                                    </button>
                                 </div>
                             </div>
 
