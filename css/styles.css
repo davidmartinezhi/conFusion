@@ -47,8 +47,3 @@ body{
     background-color:rgb(224, 108, 66);
 }
 
-.reservation span, .reservation label{
-    font-size: x-large;
-    align-items: right;
-    padding-right: 0px;
-}
