@@ -48,5 +48,7 @@ body{
 }
 
 .reservation span, .reservation label{
-    font-size: larger;
+    font-size: x-large;
+    align-items: right;
+    padding-right: 0px;
 }
