@@ -51,7 +51,7 @@ body{
     font-size: larger;
 }
 
-.large{
-    font-size: large;
+.buttonPadding {
+    padding: 2px 5px;
 }
 
