@@ -104,7 +104,7 @@
         </div>
     </header>
 <!-- Modal to reserve a table -->
-    <div id="reservationModal" class="modal fade" role="dialogue">
+    <div id="reservationModal" class="modal fade" role="dialog">
         <div class="modal-dialog modal-lg" role="content">
             <div class="modal-content">
                 <div class="modal-header">
@@ -148,10 +148,14 @@
                             </div>
                             <!-- Smoking Section -->
                             <div class="form-group row">
-                                <label for="section" class="col-12 col-sm-2 col-form-label reservation">Section</label>
-                                <div class="col-12 col-sm-4 ml-0 pl-0 btn-group" role="group">
-                                    <button type="button" class="btn btn-success active" id="section">Non-Smoking</button>
-                                    <button type="button" class="btn btn-danger" id="section">Smoking</button>
+                                <div class="col-12 col-sm-2">
+                                    <label for="section" class="col-form-label reservation">Section</label>
+                                </div>
+                                <div class="form-group row">
+                                    <div class="btn-group col-12">
+                                        <a class="btn btn-success active" type="button">Non-Smoking</a>
+                                        <a class="btn btn-danger text-white" type="button">Smoking</a>
+                                    </div>
                                 </div>
                             </div>
                             <!-- Date and Time -->
