@@ -78,3 +78,8 @@ body{
     left: 0;
     min-height: 300px;
 }
+
+.cancel {
+    background-color: rgb(97, 94, 94);
+    color: white;
+}
