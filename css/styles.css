@@ -83,3 +83,9 @@ body{
     background-color: rgb(97, 94, 94);
     color: white;
 }
+
+#carouselButtons{
+    right: 0px;
+    position: absolute;
+    bottom: 0px;
+}
