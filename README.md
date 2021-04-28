@@ -39,6 +39,10 @@ Implementing:
 
 - Bootstrap JQuery
 
+- CSS preprocessors
+  *  Less
+  *  Sass
+
 Introduction to bootstrap using:
 - Bootstrap
 - Bootstrap CSS Components
