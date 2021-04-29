@@ -53,3 +53,16 @@ body {
   bottom: 0px;
   color: aliceblue;
   z-index: 1; }
+
+  .cancel {
+    background-color: rgb(97, 94, 94);
+    color: white;
+}
+
+.reservationBgColor{
+  background-color:rgb(224, 108, 66);
+}
+
+.reservation{
+  font-size: larger;
+}
