@@ -42,7 +42,7 @@
 .carousel .carousel-item {
   height: 300px;
 }
-.carousel .carousel-item .img {
+.carousel .carousel-item img {
   position: absolute;
   top: 0;
   left: 0;
