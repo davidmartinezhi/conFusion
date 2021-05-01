@@ -40,8 +40,8 @@ Implementing:
 - Bootstrap JQuery
 
 - CSS preprocessors
-  *  Less
-  *  Sass
+  * Less
+  * Sass
 
 Introduction to bootstrap using:
 - Bootstrap
@@ -49,7 +49,9 @@ Introduction to bootstrap using:
 - Bootstrap Javascript Components
 - Bootstrap JQuery
 - NodeJS
-- Lite-Server
+  * Lite-Server
+  * less
+  * sass-node
 - Git
 - Font Awesome
 
