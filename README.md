@@ -51,7 +51,7 @@ Introduction to bootstrap using:
 - NodeJS
   * Lite-Server
   * less
-  * sass-node
+
 - Git
 - Font Awesome
 
