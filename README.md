@@ -4,7 +4,7 @@ Univesity of Science and Technogy of Hon Kong
 
 Full-Stack Web Development with React
 -------------------------------------
-By David Gerardo
+By David Gerardo Martínez
 
 First Module **Front-End Web UI Frameworks and Tools: Bootstrap 4**
 
