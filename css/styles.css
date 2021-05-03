@@ -51,18 +51,23 @@ body {
   right: 0px;
   position: absolute;
   bottom: 0px;
-  color: aliceblue;
   z-index: 1; }
 
-  .cancel {
-    background-color: rgb(97, 94, 94);
-    color: white;
-}
-
 .reservationBgColor{
-  background-color:rgb(224, 108, 66);
+    background-color:rgb(224, 108, 66);
 }
-
 .reservation{
   font-size: larger;
 }
+.cancel {
+  background-color: rgb(97, 94, 94);
+  color: white;
+}
+.modal-header {
+  background-color: #242424;
+  color: floralwhite; }
+  .modal-header .close {
+    color: floralwhite; }
+
+.modal-body {
+  background-color: aliceblue; }
