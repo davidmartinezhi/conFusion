@@ -32,15 +32,16 @@
                     <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-md"></span> Contact</a></li>
                 </ul>
             </div>
+            <!-- LogIn -->
             <span class="navbar-text">
-                <a href="" data-toggle="modal" data-target="#loginModal">
+                <a id="loginLink">
                     <span class="fa fa-sign-in"></span> Login
                 </a>
             </span>
         </div>
     </nav>
 
-    <!-- Modal -->
+    <!-- LogIn Modal -->
     <div id="loginModal" class="modal fade" role="dialog">
         <div class="modal-dialog modal-lg" role="content">
             <div class="modal-content">
@@ -350,7 +351,11 @@
                     $("#carouselButton").children("span").removeClass("fa-play");
                     $("#carouselButton").children("span").addClass("fa-pause");                    
                 }
+            });
+            $("#loginLink").click(function (){
+                $("#loginModal").modal();
             })
+           // $("#reserve")
         })
     </script>
 </body>
