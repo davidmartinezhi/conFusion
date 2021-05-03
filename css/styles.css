@@ -47,26 +47,24 @@ body {
       left: 0;
       min-height: 300px; }
 
+.reservationBgColor {
+  background-color: #e06c42; }
+
+.reservation {
+  font-size: larger; }
+
+.cancel {
+  background-color: #615e5e;
+  color: white; }
+
+.carouselButton {
+  color: white; }
+
 #carouselButton {
   right: 0px;
   position: absolute;
   bottom: 0px;
   z-index: 1; }
-
-.reservationBgColor{
-    background-color:rgb(224, 108, 66);
-}
-.reservation{
-  font-size: larger;
-}
-.cancel {
-  background-color: rgb(97, 94, 94);
-  color: white;
-}
-
-.carouselButton{
-  color: white;
-}
 
 .modal-header {
   background-color: #242424;

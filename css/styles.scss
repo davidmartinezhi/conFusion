@@ -68,6 +68,19 @@ body{
     }
 }
 
+.reservationBgColor{
+    background-color:rgb(224, 108, 66);
+}
+.reservation{
+  font-size: larger;
+}
+.cancel {
+  background-color: rgb(97, 94, 94);
+  color: white;
+}
+.carouselButton{
+    color: white;
+  }
 #carouselButton {
     right:0px;
     position: absolute;
