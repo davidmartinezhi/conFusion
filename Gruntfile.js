@@ -13,6 +13,10 @@ module.exports = function(grunt){
                     "css/styles.css": "css/styles.scss"
                 }
             }
+        },
+        watch: {
+            files: "css/*.scss",
+            tasks: ["sass"]
         }
     });
 
