@@ -75,6 +75,32 @@ module.exports = function(grunt){
                     dest: "dist/"
                 }
             }
+        },
+
+        useminPrepare: {
+            foo:{
+                dest: "dist",
+                src: ["contactus.html", "aboutus.html", "index.html"]
+            },
+            options:{
+                flow: {
+                    steps: {
+                        css:["cssmin"],
+                        js: ["uglify"]
+                    },
+                    post: {
+                        css:[{
+                            name: "cssmin",
+                            createConfig: function(context, block){
+                                var generated = context.options.generated;
+                                generated.options = {
+                                    keepSpecialComments: 0, rebase: false
+                                }
+                            }
+                        }]
+                    }
+                }
+            }
         }
 
         
