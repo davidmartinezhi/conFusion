@@ -63,6 +63,18 @@ module.exports = function(grunt){
             build: {
                 src: ["dist/"]
             }
+        },
+
+        imagemin:{
+            dynamic: {
+                files:{
+                    expand: true,
+                    dot: true,
+                    cwd: "./",
+                    src: ["img/*.{png,jpg,gif}"],
+                    dest: "dist/"
+                }
+            }
         }
 
         
@@ -70,4 +82,9 @@ module.exports = function(grunt){
 
     grunt.registerTask("css", ["sass"]);
     grunt.registerTask("default", ["browserSync", "watch"]);
+    grunt.registerTask("build", [
+        "clean",
+        "copy",
+        "imagemin"
+    ]);
 }
