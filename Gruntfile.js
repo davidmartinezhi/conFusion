@@ -157,6 +157,13 @@ module.exports = function(grunt){
     grunt.registerTask("build", [
         "clean",
         "copy",
-        "imagemin"
+        "imagemin",
+        "useminPrepare",
+        "concat",
+        "cssmin",
+        "uglify",
+        "filerev",
+        "usemin",
+        "htmlmin"
     ]);
 }
