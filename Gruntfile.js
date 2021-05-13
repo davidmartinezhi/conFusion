@@ -100,10 +100,53 @@ module.exports = function(grunt){
                         }]
                     }
                 }
+            },
+            concat: {
+                options: {
+                    separator: ";"
+                },
+                dist: {}
+            },
+            uglify: {
+                dist: {}
+            },
+            cssmin: {
+                dist: {}
+            },
+            filerev:{
+                options: {
+                    encoding: "utf8",
+                    algorithm: "md5",
+                    length: 20 
+                },
+                release: {
+                    files:[{
+                        src: [
+                            "dist/js/*.js",
+                            "dist/css/*.css"
+                        ]
+                    }]
+                }
+            },
+        usemin: {
+            html: ["dist/contactus.html", "dist/aboutus.html", "dist/index.html"],
+            options: {
+                assetsDirs: ["dist", "dist/css", "dist/js"]
+            }
+        },
+        htmlmin: {
+            dist:{
+                options:{
+                    collapseWhitespace: true
+                },
+                files:{
+                    "dist/contactus.html" : "dist/contactus.html",
+                    "dist/aboutus.html" : "dist/aboutus.html",
+                    "dist/index.html" : "dist/index.html"
+                }
             }
         }
-
-        
+        }
     });
 
     grunt.registerTask("css", ["sass"]);
